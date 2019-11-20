@@ -20,3 +20,21 @@
 .App-link {
   color: #09d3ac;
 }
+#root {
+  height: 100%;
+}
+.Home {
+  background: url(./Components/Images/GS-Logo-vignette.png) no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 957px;
+  display: flex;
+  margin: auto;
+}
+.homeText {
+  margin: auto;
+  text-align: center;
+}

@@ -2,16 +2,18 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Image from "react-bootstrap/Image";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 //my pages
+import logo from "./Images/GS-Logo-white640x640.svg";
 import CodeExamples from "./Code Examples/Code-Examples";
-import About from "./About";
+import About from "./About/About";
 import Home from "./Home";
 import NoMatch from "./NoMatch";
 import Resume from "./Resume";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 
 class Navigation extends Component {
   render() {
@@ -19,7 +21,7 @@ class Navigation extends Component {
       <Router>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Link to="/" className="navbar-brand">
-            GS Software
+            <Image src={logo} width="50" height="50" />
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

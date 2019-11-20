@@ -24,8 +24,7 @@
   height: 100%;
 }
 .Home {
-  background: url(./Components/Images/GS-Logo-vignette.png) no-repeat center
-    center;
+  background: url(./Images/GS-Logo-vignette.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

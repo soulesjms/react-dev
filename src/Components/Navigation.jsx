@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 //my pages
-import logo from "./Images/GS-Logo-white640x640.svg";
+import logo from "../Images/GS-Logo-white640x640.svg";
 import CodeExamples from "./Code Examples/Code-Examples";
 import About from "./About/About";
 import Home from "./Home";

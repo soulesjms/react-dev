@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Image from "react-bootstrap/Image";
-import headshot from "../Images/Headshot200x200.jpg";
+import headshot from "../../Images/Headshot200x200.jpg";
 
 class Banner extends Component {
   state = {};

@@ -29,9 +29,16 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 957px;
+  height: 500px;
   display: flex;
   margin: auto;
+}
+
+.skillz {
+  box-shadow: 3px 3px 5px #888888;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 10px;
 }
 .homeText {
   margin: auto;

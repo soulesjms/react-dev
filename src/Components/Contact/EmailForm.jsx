@@ -13,9 +13,9 @@ class EmailForm extends Component {
 
   render() {
     let sendStatus;
-    if (this.state.status == "success") {
+    if (this.state.status === "success") {
       sendStatus = <Alert variant="success">Email successfully sent!</Alert>;
-    } else if (this.state.status == "failed") {
+    } else if (this.state.status === "failed") {
       sendStatus = <Alert variant="danger">Email failed to send.</Alert>;
     }
 

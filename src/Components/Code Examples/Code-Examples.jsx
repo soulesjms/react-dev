@@ -18,6 +18,8 @@ function CodeExamples() {
   return (
     <div>
       <h2>Code Examples</h2>
+      I'm currently in the process of developing this part of the site. Check
+      back later! Hopefully it'll be more awesome by then. :D
       <ul>
         <li>
           <Link to={`${match.url}/pokedex`}>Pokedex</Link>
@@ -26,7 +28,6 @@ function CodeExamples() {
           <Link to={`${match.url}/store`}>Store</Link>
         </li>
       </ul>
-
       <Switch>
         <Route path={`${match.path}/pokedex`} component={Pokedex} />
         <Route path={`${match.path}/store`} component={Store} />

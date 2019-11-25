@@ -23,16 +23,6 @@
 #root {
   height: 100%;
 }
-.Home {
-  background: url(./Images/GS-Logo-vignette.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 500px;
-  display: flex;
-  margin: auto;
-}
 
 .skillz {
   box-shadow: 3px 3px 5px #888888;

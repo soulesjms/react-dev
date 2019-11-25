@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import logo from "../Images/GS-Logo-white640x640.svg";
 import CodeExamples from "./Code Examples/Code-Examples";
 import About from "./About/About";
-import Home from "./Home";
+import Home from "./Home/Home";
 import NoMatch from "./NoMatch";
 import Resume from "./Resume";
 import Contact from "./Contact/Contact";

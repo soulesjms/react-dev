@@ -1,6 +1,7 @@
 import React from "react";
 import Pokedex from "./Pokedex/Pokedex";
 import Store from "./Store/Store";
+import BitcoinPrices from "./Bitcoin/Bitcoin-Prices";
 import {
   Switch,
   Route,
@@ -27,10 +28,14 @@ function CodeExamples() {
         <li>
           <Link to={`${match.url}/store`}>Store</Link>
         </li>
+        <li>
+          <Link to={`${match.url}/bitcoin`}>Bitcoin Price Index</Link>
+        </li>
       </ul>
       <Switch>
         <Route path={`${match.path}/pokedex`} component={Pokedex} />
         <Route path={`${match.path}/store`} component={Store} />
+        <Route path={`${match.path}/bitcoin`} component={BitcoinPrices} />
         <Route path={match.path}>
           <h3>Please select a code example</h3>
         </Route>

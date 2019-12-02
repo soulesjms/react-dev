@@ -42,6 +42,9 @@ class Navigation extends Component {
                 <Link to="/code-examples/3.3" className="dropdown-item">
                   Graphs
                 </Link>
+                <Link to="/code-examples/bitcoin" className="dropdown-item">
+                  Bitcoin Price Index
+                </Link>
                 <NavDropdown.Divider />
                 <Link to="/code-examples" className="dropdown-item">
                   Full List

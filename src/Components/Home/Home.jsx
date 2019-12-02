@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 import MyCarousel from "./MyCarousel";
-import EmailForm from "../Contact/EmailForm"
+import EmailForm from "../Contact/EmailForm";
 
 class Home extends Component {
   render() {
@@ -29,9 +29,8 @@ class Home extends Component {
             <Col lg={{ span: 4 }}>
               <div className="skillz">
                 <h3>Web Development</h3>
-                I can provide technologies such as
-                HTML5, CSS3, jQuery, Javascript, SQL, PHP, Bootstrap, Angular,
-                XML and more.
+                I can provide technologies such as HTML5, CSS3, jQuery,
+                Javascript, SQL, PHP, Bootstrap, Angular, XML and more.
                 <EmailForm />
               </div>
             </Col>
